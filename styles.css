@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans");
+
+:root {
+    --bg-colour: rgb(157, 224, 173);
+    --accent-colour: rgb(84, 121, 128);
+    --border-colour: rgb(89, 79, 79);
+  }
+
+body {
+    background-color: var(--bg-colour);
+    color: var(--accent-colour);
+    border-left: 25pt;
+    border-right: 25pt;
+    border-top: 0pt;
+    border-bottom: 0pt;
+    border-color: var(--border-colour);
+    border-style: solid;
+    font-family: 'Open Sans',Arial,sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 48pt;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 20pt;
+}
+
+h3 {
+    position: relative;
+    left: 25pt;
+    font-size: 17pt;
+}
+
+img {
+    vertical-align: middle;
+}
+
+#app {
+    position: absolute;
+}
+
+li {
+    position: relative;
+    left: 125pt;
+    font-size: 14pt;
+    word-wrap: break-word;
+    padding-right: 125pt;
+}
+
+.hiddenlink {
+    color: var(--accent-colour);
+    text-decoration-line: none;
+}
