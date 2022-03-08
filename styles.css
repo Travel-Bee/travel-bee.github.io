@@ -55,3 +55,12 @@ li {
     color: var(--accent-colour);
     text-decoration-line: none;
 }
+
+h4 {
+  position: relative;
+  left: 25pt;
+}
+
+a {
+  color: var(--border-colour);
+}
