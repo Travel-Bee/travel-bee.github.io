@@ -2,8 +2,8 @@
 
 :root {
     --bg-colour: rgb(157, 224, 173);
-    --accent-colour: rgb(84, 121, 128);
-    --border-colour: rgb(89, 79, 79);
+    --accent-colour: rgb(85, 130, 102);
+    --border-colour: rgb(93, 88, 75);
   }
 
 body {
@@ -41,14 +41,15 @@ img {
 
 #app {
     position: absolute;
+    width: 145pt;
 }
 
-li {
+ul {
     position: relative;
-    left: 125pt;
-    font-size: 14pt;
+    left: 190pt;
+    font-size: 150%;
     word-wrap: break-word;
-    padding-right: 125pt;
+    padding-right: 190pt;
 }
 
 .hiddenlink {
